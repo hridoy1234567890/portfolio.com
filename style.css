@@ -1,7 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+} */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -50,4 +51,31 @@ nav ul li a{
     color: white;
 
 }
+/* banner-design */
+.banaer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+}
+.banner-containt{
+    max-width: 580px;
+}
+.banner-containt .bannaer-welcome{
+    font-size: 30px;
+    font: weight 600px;
+    color: #474747;
+}
+.banner-containt .banner-tittle{
+    font-size: 60px;
+    color: #181818;
+    font-weight: bold;
+}
+.banner-containt .banner-descritption{
+    font-size: 18px;
+    font: weight 300px;
+    color: #474747;
 
+}
+.banner-img{
+    width: 580px;
+}
